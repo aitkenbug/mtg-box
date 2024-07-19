@@ -18,6 +18,7 @@ Estan disponibles los archivos de fabricacion y de objeto 3D en las carpetas `pr
 * STL
 
 # Diseño del objeto
+
 <img src="img/parts.png" alt="parts" width="500">
 
 El objeto fue diseñado en Fusion 360 para ser impreso en 3D por FDM con filamento PLA. Esta compuesto por 4 piezas que se numeran del 1 al 4.
@@ -36,12 +37,15 @@ Los modelos 3D estan disponibles en extension STEP y Fusion 360 f3d
 Para fabricar el objeto hay que procesar los archivos de mallas con Ultimaker Cura con las siguientes orientaciones para cada pieza para una impresion optima.
 
 <img src="img/tray.png" alt="bandeja" width="500">
+
 El **Tray** se puede cortar sin ninguna modificación ni correccin de posicion adicional, pero se deben utilizar soportes para la correcta impresion del mecanismo de cierre.
 
 <img src="img/cover.png" alt="covertura" width="500">
+
 **Cover** se debe rotar en 90 grados tal que la cara plana opuesta a la apertura quede tocando la cama de la impresora para no utilizar soportes exesivamente, se recomienda utilizar sujeciones del tipo "Brim"
 
 <img src="img/dices.png" alt="cajadedados" width="500">
+
 Se pueden imprimir ambas piezas de los **Dices** en la misma tanda, al importar las piezas solo se deben correr dentro de la cama para que estas no se superpongan.
 
 ### Parametros de impresion:
@@ -56,6 +60,7 @@ Se pueden imprimir ambas piezas de los **Dices** en la misma tanda, al importar 
 Si la impresora es muy precisa se recomienda modificar la pretuberancia del mecanismo de sujecion en un amuento de 0.75mm. Para uso de una Ender 3 tradicional se puede mantener la pretuberancia original.
 
 <img src="img/latch1.png" alt="cierre" width="500">
+
 Pretuberancia de sujecion a modificar dependiendo del caso.
 
 # Ensamblaje
